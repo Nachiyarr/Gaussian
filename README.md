@@ -8,12 +8,11 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. Get the order of the matrix from the user
-2. Get the value for the matrix from the user
-3. Apply guassian elimination using nested for() loop
-   a[j][k]=a[j][k]-scalar_value*a[i][k]
-4. Apply back subsitutio to find the solution of the matrix
-x[n-1]=a[n-1][n]/a[n-1][n-1]
+1. Import numpy
+2.Import sys
+3.Get the input from the user.
+4.Use nested for loop
+5.Print the slovef matrix using gaussian elimination without partial pivoting.
 ## Program:
 ```
 Program to solve a matrix using Gaussian elimination with partial pivoting.
